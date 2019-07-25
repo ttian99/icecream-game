@@ -1,0 +1,61 @@
+{
+  "name": "icecream-game",
+  "version": "0.0.1",
+  "description": "The package template for getting started.",
+  "author": "Monkey Jiao",
+  "private": true,
+  "main": "main.js",
+  "main-menu": {
+    "icecream-game/打开面板": {
+      "message": "icecream-game:open"
+    },
+    "icecream-game/安装依赖包": {
+      "message": "icecream-game:install"
+    },
+    "icecream-game/ttgame/拷贝wechat到ttgame文件夹": {
+      "message": "icecream-game:tt-copy-build"
+    },
+    "icecream-game/ttgame/上传res压缩包": {
+      "message": "icecream-game:uploadRes"
+    },
+    "icecream-game/ttgame/压缩并且删除res目录": {
+      "message": "icecream-game:zipRes"
+    }
+  },
+  "panel": {
+    "main": "panel/index.js",
+    "type": "dockable",
+    "title": "icecream-game",
+    "width": 490,
+    "height": 570
+  },
+  "dependencies": {
+    "crypto": "^1.0.1",
+    "fs-extra": "^7.0.1",
+    "moment": "^2.24.0",
+    "node-zip-dir": "^1.0.2",
+    "ssh2-sftp-client": "^2.5.0",
+    "xlsx": "^0.14.3"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ttian99/icecream-game.git"
+  },
+  "keywords": [
+    "CocosCreator",
+    "packages",
+    "tools"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ttian99/icecream-game/issues"
+  },
+  "homepage": "https://github.com/ttian99/icecream-game#readme"
+}
