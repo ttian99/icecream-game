@@ -20,6 +20,9 @@
     },
     "icecream-game/ttgame/压缩并且删除res目录": {
       "message": "icecream-game:zipRes"
+    },
+    "icecream-game/ttgame/读取语言翻译文本": {
+      "message": "icecream-game:readLanguage"
     }
   },
   "panel": {
