@@ -21,7 +21,7 @@
     "icecream-game/ttgame/压缩并且删除res目录": {
       "message": "icecream-game:zipRes"
     },
-    "icecream-game/ttgame/读取语言翻译文本": {
+    "icecream-game/读取语言翻译文本": {
       "message": "icecream-game:readLanguage"
     }
   },
@@ -37,8 +37,8 @@
     "fs-extra": "^7.0.1",
     "moment": "^2.24.0",
     "node-zip-dir": "^1.0.2",
-    "ssh2-sftp-client": "^2.5.0",
-    "xlsx": "^0.14.3"
+    "ssh2-sftp-client": "^2.5.2",
+    "xlsx": "^0.14.5"
   },
   "directories": {
     "lib": "lib"
