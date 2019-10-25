@@ -31,12 +31,19 @@ module.exports = {
     'md5_map' () {
       task.makeMD5Map('ttgame');
     },
-    'zipRes' () {
+    'tt-zip-res'() {
       task.zipRes('ttgame')
     },
-    'uploadRes' () {
-      Editor.log('上传res包');
-      task.uploadRes();
+    'tt-upload-res'() {
+      Editor.log('上传res包: ttgame');
+      task.uploadRes('ttgame');
+    },
+    'wx-zip-res'() {
+      task.zipRes('wechatgame')
+    },
+    'wx-upload-res'() {
+      Editor.log('上传res包: wechat');
+      task.uploadRes('wechatgame');
     },
     'readLanguage' () {
       Editor.log('读取语言翻译');

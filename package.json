@@ -16,10 +16,16 @@
       "message": "icecream-game:tt-copy-build"
     },
     "icecream-game/ttgame/上传res压缩包": {
-      "message": "icecream-game:uploadRes"
+      "message": "icecream-game:tt-upload-res"
     },
     "icecream-game/ttgame/压缩并且删除res目录": {
-      "message": "icecream-game:zipRes"
+      "message": "icecream-game:tt-zip-res"
+    },
+    "icecream-game/wechat/上传res压缩包": {
+      "message": "icecream-game:wx-upload-res"
+    },
+    "icecream-game/wechat/压缩并且删除res目录": {
+      "message": "icecream-game:wx-zip-res"
     },
     "icecream-game/读取语言翻译文本": {
       "message": "icecream-game:readLanguage"
