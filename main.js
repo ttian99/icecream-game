@@ -49,6 +49,10 @@ module.exports = {
       Editor.log('读取语言翻译');
       task.readLanguage();
     },
+    'readQuestion' () {
+      Editor.log('读取问答翻译');
+      task.readQuestion();
+    },
     'editor:build-finished'(event, arg) {
       const cfg = task.loadConfig();
       if (cfg.autoCopy && arg.actualPlatform == 'wechatgame') {

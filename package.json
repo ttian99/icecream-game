@@ -29,6 +29,9 @@
     },
     "icecream-game/读取语言翻译文本": {
       "message": "icecream-game:readLanguage"
+    },
+    "icecream-game/读取问答翻译文本": {
+      "message": "icecream-game:readQuestion"
     }
   },
   "panel": {
