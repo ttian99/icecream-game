@@ -5,14 +5,20 @@ a Cocos-creator package for icecream-game
 ## 配置config.json
 ``` json
 {
-    "appid": "tt438c3531dca6c746",
-    "autoCopy": true,
-    "remotePath": "xxx/xxx/xxx/",
+    "pf": "wechat",
     "ssh": {
         "HOST": "xxx.xxx.xxx.xxx",
         "PORT": "xx",
         "USER": "xxxx",
-        "PASS": "xxxx"
+        "PASS": "xxxxxx"
+    },
+    "remotePath": "/xxxx/xxxx/xxxx/xxxx/",
+    "tt": {
+        "autoCopy": true,
+        "appid": "xxxxxxxxxxxxxxxxx"
+    },
+    "wx": {
+        "appid": "xxxxxxxxxxxxxxxxx"
     }
 }
 ```
