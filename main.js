@@ -65,6 +65,10 @@ module.exports = {
       Editor.log('读取问答翻译');
       task.readQuestion();
     },
+    'readNews' () {
+      Editor.log('读取新闻列表');
+      task.readNews();
+    },
     'editor:build-finished'(event, arg) {
       // const cfg = task.loadConfig();
       // if (cfg.autoCopy && arg.actualPlatform == 'wechatgame') {
